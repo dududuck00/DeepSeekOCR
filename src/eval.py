@@ -148,8 +148,3 @@ if __name__ == "__main__":
     args = parser.parse_args()
     
     main(args.predict_file, args.output_file)
-    
-
-# python ./eval/fox_eval.py --predict_file ./output/raw/en_page_ocr_with_raw_ocr.json --output_file ./output/eval/en_page_ocr_with_raw_ocr_eval_ipy.json
-# python ./eval/fox_eval.py --predict_file ./output/raw/en_page_ocr_distort_with_raw_ocr.json --output_file ./output/raw/en_page_ocr_distort_with_raw_ocr_eval_ipy.json
-# python ./eval/fox_eval.py --predict_file ./output/raw/en_page_ocr_from_text_with_raw_ocr.json --output_file ./output/raw/en_page_ocr_from_text_with_raw_ocr_eval_ipy.json 
